@@ -1,0 +1,113 @@
+html, .full-height {
+    height:100%;
+}
+
+/* Hide for mobile, show later */
+.left {
+    display: none;
+}
+@media (min-width: 768px) {
+    .left {
+        background:url("img/bg1.jpg");
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        border-right: 5px solid #222;
+    }
+}
+
+
+.right {
+    padding:20px;
+    background: #ffffff;
+    height:100%;
+}
+
+.right>h3 {
+    margin-top:30px;
+    margin-bottom:10px;
+    padding-bottom:5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.deets {
+    color:#ffffff;
+    position: absolute;
+    bottom:40px;
+    left:calc(50% - 75px);
+}
+
+.experienceItem {
+    margin-bottom:20px;
+    border-bottom:1px solid #ccc;
+}
+
+.experienceItem .role {
+    margin-bottom:10px;
+}
+
+.experienceItem .date {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.highlight {
+    color:#EB6841
+}
+
+.highlight2 {
+    color:#CC333F
+}
+
+
+
+.headline {
+    background: #f0fafa;
+    border:1px solid #eee;
+    padding: 40px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.headline h3 {
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.skill {
+    font-size: 11px;
+    width:100%;
+    padding:5px 0;
+    color:#777;
+    font-weight: bold;
+}
+
+.deets {
+    font-weight: 100;
+    padding: 20px;
+    background: rgba(255,255,255,0.4);
+    border: 5px solid #fff;
+}
+
+.contactLine, .contactLine a {
+    color:#fff;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.contactLine {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    padding-bottom:10px;
+}
+
+.contactLine i {
+    margin-right: 10px;
+}
