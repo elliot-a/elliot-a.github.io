@@ -1,2 +1,5 @@
-# Elliot's Site
-Just a quick resume site.
+# Elliot's CV Site
+
+Just a quick resume site - feel free to use/steal/sell/burn/worship etc...
+
+
